@@ -1,0 +1,30 @@
+{
+  "name": "assignment-01-chalanis",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/MhkFIDKy)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test:course": "jest test/testcoursemodel.js",
+    "test:lecturer": "jest test/testlecturermodel.js"
+  },
+  "keywords": [],
+  "author": "Rajapaksha C.S. - IT21377280",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "crypto-random-string": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.2",
+    "nodemailer": "^6.9.13",
+    "socket.io": "^4.7.5",
+    "twilio": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.0",
+    "jest": "^29.7.0"
+  }
+}
